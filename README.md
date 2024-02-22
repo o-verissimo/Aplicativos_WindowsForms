@@ -88,7 +88,6 @@
 <div>
   <h3>Para esse projeto, utilizei:</h3>
   <img src="https://static.cdnlogo.com/logos/c/27/c.svg" width="100" height="100">
-  <img src="https://github.com/o-verissimo/Aplicativos_WindowsForms/assets/102670336/2d59b061-434f-426e-bb8b-083b3fb42084" width="100" height="100">
 </div>
 
 # Time
