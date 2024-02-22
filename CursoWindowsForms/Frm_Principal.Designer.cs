@@ -29,58 +29,24 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Principal));
-            this.Btn_DemonstracaoKey = new System.Windows.Forms.Button();
-            this.Btn_HelloWorld = new System.Windows.Forms.Button();
-            this.Btn_Mascara = new System.Windows.Forms.Button();
-            this.Btn_ValidaCPF = new System.Windows.Forms.Button();
-            this.Btn_ValidaCPF2 = new System.Windows.Forms.Button();
             this.Btn_ValidaSenha = new System.Windows.Forms.Button();
+            this.Btn_ValidaCPF2 = new System.Windows.Forms.Button();
+            this.Btn_ValidaCPF = new System.Windows.Forms.Button();
+            this.Btn_Mascara = new System.Windows.Forms.Button();
+            this.Btn_HelloWorld = new System.Windows.Forms.Button();
+            this.Btn_DemonstracaoKey = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // Btn_DemonstracaoKey
+            // Btn_ValidaSenha
             // 
-            this.Btn_DemonstracaoKey.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.Btn_DemonstracaoKey.Image = ((System.Drawing.Image)(resources.GetObject("Btn_DemonstracaoKey.Image")));
-            this.Btn_DemonstracaoKey.Location = new System.Drawing.Point(12, 12);
-            this.Btn_DemonstracaoKey.Name = "Btn_DemonstracaoKey";
-            this.Btn_DemonstracaoKey.Size = new System.Drawing.Size(114, 48);
-            this.Btn_DemonstracaoKey.TabIndex = 0;
-            this.Btn_DemonstracaoKey.Text = "Demonstração Key";
-            this.Btn_DemonstracaoKey.UseVisualStyleBackColor = true;
-            this.Btn_DemonstracaoKey.Click += new System.EventHandler(this.Btn_DemonstracaoKey_Click);
-            // 
-            // Btn_HelloWorld
-            // 
-            this.Btn_HelloWorld.Image = ((System.Drawing.Image)(resources.GetObject("Btn_HelloWorld.Image")));
-            this.Btn_HelloWorld.Location = new System.Drawing.Point(132, 12);
-            this.Btn_HelloWorld.Name = "Btn_HelloWorld";
-            this.Btn_HelloWorld.Size = new System.Drawing.Size(114, 48);
-            this.Btn_HelloWorld.TabIndex = 1;
-            this.Btn_HelloWorld.Text = "Hello World";
-            this.Btn_HelloWorld.UseVisualStyleBackColor = true;
-            this.Btn_HelloWorld.Click += new System.EventHandler(this.Btn_HelloWorld_Click);
-            // 
-            // Btn_Mascara
-            // 
-            this.Btn_Mascara.Image = ((System.Drawing.Image)(resources.GetObject("Btn_Mascara.Image")));
-            this.Btn_Mascara.Location = new System.Drawing.Point(252, 12);
-            this.Btn_Mascara.Name = "Btn_Mascara";
-            this.Btn_Mascara.Size = new System.Drawing.Size(114, 48);
-            this.Btn_Mascara.TabIndex = 2;
-            this.Btn_Mascara.Text = "Máscara";
-            this.Btn_Mascara.UseVisualStyleBackColor = true;
-            this.Btn_Mascara.Click += new System.EventHandler(this.Btn_Mascara_Click);
-            // 
-            // Btn_ValidaCPF
-            // 
-            this.Btn_ValidaCPF.Image = ((System.Drawing.Image)(resources.GetObject("Btn_ValidaCPF.Image")));
-            this.Btn_ValidaCPF.Location = new System.Drawing.Point(12, 66);
-            this.Btn_ValidaCPF.Name = "Btn_ValidaCPF";
-            this.Btn_ValidaCPF.Size = new System.Drawing.Size(114, 48);
-            this.Btn_ValidaCPF.TabIndex = 3;
-            this.Btn_ValidaCPF.Text = "Valída CPF";
-            this.Btn_ValidaCPF.UseVisualStyleBackColor = true;
-            this.Btn_ValidaCPF.Click += new System.EventHandler(this.Btn_ValidaCPF_Click);
+            this.Btn_ValidaSenha.Image = ((System.Drawing.Image)(resources.GetObject("Btn_ValidaSenha.Image")));
+            this.Btn_ValidaSenha.Location = new System.Drawing.Point(252, 66);
+            this.Btn_ValidaSenha.Name = "Btn_ValidaSenha";
+            this.Btn_ValidaSenha.Size = new System.Drawing.Size(114, 48);
+            this.Btn_ValidaSenha.TabIndex = 5;
+            this.Btn_ValidaSenha.Text = "Valída Senha";
+            this.Btn_ValidaSenha.UseVisualStyleBackColor = true;
+            this.Btn_ValidaSenha.Click += new System.EventHandler(this.Btn_ValidaSenha_Click);
             // 
             // Btn_ValidaCPF2
             // 
@@ -93,16 +59,50 @@
             this.Btn_ValidaCPF2.UseVisualStyleBackColor = true;
             this.Btn_ValidaCPF2.Click += new System.EventHandler(this.Btn_ValidaCPF2_Click);
             // 
-            // Btn_ValidaSenha
+            // Btn_ValidaCPF
             // 
-            this.Btn_ValidaSenha.Image = ((System.Drawing.Image)(resources.GetObject("Btn_ValidaSenha.Image")));
-            this.Btn_ValidaSenha.Location = new System.Drawing.Point(252, 66);
-            this.Btn_ValidaSenha.Name = "Btn_ValidaSenha";
-            this.Btn_ValidaSenha.Size = new System.Drawing.Size(114, 48);
-            this.Btn_ValidaSenha.TabIndex = 5;
-            this.Btn_ValidaSenha.Text = "Valída Senha";
-            this.Btn_ValidaSenha.UseVisualStyleBackColor = true;
-            this.Btn_ValidaSenha.Click += new System.EventHandler(this.Btn_ValidaSenha_Click);
+            this.Btn_ValidaCPF.Image = ((System.Drawing.Image)(resources.GetObject("Btn_ValidaCPF.Image")));
+            this.Btn_ValidaCPF.Location = new System.Drawing.Point(12, 66);
+            this.Btn_ValidaCPF.Name = "Btn_ValidaCPF";
+            this.Btn_ValidaCPF.Size = new System.Drawing.Size(114, 48);
+            this.Btn_ValidaCPF.TabIndex = 3;
+            this.Btn_ValidaCPF.Text = "Valída CPF";
+            this.Btn_ValidaCPF.UseVisualStyleBackColor = true;
+            this.Btn_ValidaCPF.Click += new System.EventHandler(this.Btn_ValidaCPF_Click);
+            // 
+            // Btn_Mascara
+            // 
+            this.Btn_Mascara.Image = ((System.Drawing.Image)(resources.GetObject("Btn_Mascara.Image")));
+            this.Btn_Mascara.Location = new System.Drawing.Point(252, 12);
+            this.Btn_Mascara.Name = "Btn_Mascara";
+            this.Btn_Mascara.Size = new System.Drawing.Size(114, 48);
+            this.Btn_Mascara.TabIndex = 2;
+            this.Btn_Mascara.Text = "Máscara";
+            this.Btn_Mascara.UseVisualStyleBackColor = true;
+            this.Btn_Mascara.Click += new System.EventHandler(this.Btn_Mascara_Click);
+            // 
+            // Btn_HelloWorld
+            // 
+            this.Btn_HelloWorld.Image = ((System.Drawing.Image)(resources.GetObject("Btn_HelloWorld.Image")));
+            this.Btn_HelloWorld.Location = new System.Drawing.Point(132, 12);
+            this.Btn_HelloWorld.Name = "Btn_HelloWorld";
+            this.Btn_HelloWorld.Size = new System.Drawing.Size(114, 48);
+            this.Btn_HelloWorld.TabIndex = 1;
+            this.Btn_HelloWorld.Text = "Hello World";
+            this.Btn_HelloWorld.UseVisualStyleBackColor = true;
+            this.Btn_HelloWorld.Click += new System.EventHandler(this.Btn_HelloWorld_Click);
+            // 
+            // Btn_DemonstracaoKey
+            // 
+            this.Btn_DemonstracaoKey.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.Btn_DemonstracaoKey.Image = ((System.Drawing.Image)(resources.GetObject("Btn_DemonstracaoKey.Image")));
+            this.Btn_DemonstracaoKey.Location = new System.Drawing.Point(12, 12);
+            this.Btn_DemonstracaoKey.Name = "Btn_DemonstracaoKey";
+            this.Btn_DemonstracaoKey.Size = new System.Drawing.Size(114, 48);
+            this.Btn_DemonstracaoKey.TabIndex = 0;
+            this.Btn_DemonstracaoKey.Text = "Demonstração Key";
+            this.Btn_DemonstracaoKey.UseVisualStyleBackColor = true;
+            this.Btn_DemonstracaoKey.Click += new System.EventHandler(this.Btn_DemonstracaoKey_Click);
             // 
             // Frm_Principal
             // 
