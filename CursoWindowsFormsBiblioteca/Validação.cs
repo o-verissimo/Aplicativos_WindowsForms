@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CursoWindowsForms
+namespace CursoWindowsFormsBiblioteca
 {
-    internal class Validação
+    public class Validacao
     {
         public static bool ValidarCPF(string cpf)
         {
@@ -42,6 +42,5 @@ namespace CursoWindowsForms
             digito = digito + resto.ToString();
             return cpf.EndsWith(digito);
         }
-
     }
 }

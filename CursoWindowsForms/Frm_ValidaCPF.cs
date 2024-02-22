@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CursoWindowsFormsBiblioteca;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -21,7 +22,7 @@ namespace CursoWindowsForms
         private void Btn_Valida_Click(object sender, EventArgs e)
         {
             bool validaCPF = false;
-            validaCPF = Validação.ValidarCPF(Msk_CPF.Text);
+            validaCPF = Validacao.ValidarCPF(Msk_CPF.Text);
             if(validaCPF == true)
             {
                 Lbl_Resultado.Text = "CPF VÁLIDO";
