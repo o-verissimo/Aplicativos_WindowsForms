@@ -22,7 +22,7 @@ namespace CursoWindowsForms
         private void Btn_Valida_Click(object sender, EventArgs e)
         {
             bool validaCPF = false;
-            validaCPF = Validacao.ValidarCPF(Msk_CPF.Text);
+            validaCPF = ValidaCPF.ValidarCPF(Msk_CPF.Text);
             if(validaCPF == true)
             {
                 Lbl_Resultado.Text = "CPF VÁLIDO";

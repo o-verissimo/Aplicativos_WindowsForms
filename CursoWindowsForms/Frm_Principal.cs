@@ -49,8 +49,8 @@ namespace CursoWindowsForms
 
         private void Btn_ValidaSenha_Click(object sender, EventArgs e)
         {
-            Frm_ValidaSenha Frm_ValidaSenha = new Frm_ValidaSenha();
-            Frm_ValidaSenha.ShowDialog();
+            Frm_ValidaSenha formValidaSenha = new Frm_ValidaSenha();
+            formValidaSenha.ShowDialog();
         }
     }
 }

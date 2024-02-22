@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CursoWindowsFormsBiblioteca
 {
-    public class Validacao
+    public class ValidaCPF
     {
         public static bool ValidarCPF(string cpf)
         {
