@@ -71,12 +71,32 @@ namespace CursoWindowsForms.Properties {
         }
         
         /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Icon semelhante a (Ícone).
+        /// </summary>
+        internal static System.Drawing.Icon Frm_DemonstracaoKey1 {
+            get {
+                object obj = ResourceManager.GetObject("Frm_DemonstracaoKey1", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap Frm_HelloWorld {
             get {
                 object obj = ResourceManager.GetObject("Frm_HelloWorld", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Icon semelhante a (Ícone).
+        /// </summary>
+        internal static System.Drawing.Icon Frm_HelloWorld1 {
+            get {
+                object obj = ResourceManager.GetObject("Frm_HelloWorld1", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
             }
         }
         
@@ -91,12 +111,42 @@ namespace CursoWindowsForms.Properties {
         }
         
         /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Icon semelhante a (Ícone).
+        /// </summary>
+        internal static System.Drawing.Icon Frm_Mascara1 {
+            get {
+                object obj = ResourceManager.GetObject("Frm_Mascara1", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Icon semelhante a (Ícone).
+        /// </summary>
+        internal static System.Drawing.Icon Frm_Principal {
+            get {
+                object obj = ResourceManager.GetObject("Frm_Principal", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap Frm_ValidaCPF {
             get {
                 object obj = ResourceManager.GetObject("Frm_ValidaCPF", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Icon semelhante a (Ícone).
+        /// </summary>
+        internal static System.Drawing.Icon Frm_ValidaCPF1 {
+            get {
+                object obj = ResourceManager.GetObject("Frm_ValidaCPF1", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
             }
         }
         
@@ -121,12 +171,32 @@ namespace CursoWindowsForms.Properties {
         }
         
         /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Icon semelhante a (Ícone).
+        /// </summary>
+        internal static System.Drawing.Icon Frm_ValidaCPF22 {
+            get {
+                object obj = ResourceManager.GetObject("Frm_ValidaCPF22", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap Frm_ValidaSenha {
             get {
                 object obj = ResourceManager.GetObject("Frm_ValidaSenha", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Icon semelhante a (Ícone).
+        /// </summary>
+        internal static System.Drawing.Icon Frm_ValidaSenha1 {
+            get {
+                object obj = ResourceManager.GetObject("Frm_ValidaSenha1", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
             }
         }
     }
