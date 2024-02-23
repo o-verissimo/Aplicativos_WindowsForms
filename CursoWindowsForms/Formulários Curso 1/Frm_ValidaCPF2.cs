@@ -22,6 +22,7 @@ namespace CursoWindowsForms
         private void Btn_Reset_Click(object sender, EventArgs e)
         {
             Msk_CPF.Text = "";
+            Msk_CPF.Focus();
         }
 
         private void Btn_Valida_Click(object sender, EventArgs e)
