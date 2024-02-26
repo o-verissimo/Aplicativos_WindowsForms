@@ -11,19 +11,23 @@ using System.Windows.Forms;
 
 namespace CursoWindowsForms
 {
-
-
-    public partial class Frm_ValidaCPF : Form
+    public partial class Frm_ValidaCPF_UC : UserControl
     {
-        public Frm_ValidaCPF()
+        public Frm_ValidaCPF_UC()
         {
             InitializeComponent();
         }
+        private void Btn_Reset_Click(object sender, EventArgs e)
+        {
+            Lbl_Resultado.Text = "";
+            Msk_CPF.Text = "";
+        }
+
         private void Btn_Valida_Click(object sender, EventArgs e)
         {
             bool validaCPF = false;
             validaCPF = ValidaCPF.ValidarCPF(Msk_CPF.Text);
-            if(validaCPF == true)
+            if (validaCPF == true)
             {
                 Lbl_Resultado.Text = "CPF VÁLIDO";
                 Lbl_Resultado.ForeColor = Color.Green;
@@ -33,22 +37,6 @@ namespace CursoWindowsForms
                 Lbl_Resultado.Text = "CPF INVÁLIDO";
                 Lbl_Resultado.ForeColor = Color.Red;
             }
-        }
-
-        private void Btn_Reset_Click(object sender, EventArgs e)
-        {
-            Lbl_Resultado.Text = "";
-            Msk_CPF.Text = "";
-        }
-
-        private void Lbl_Resultado_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Msk_CPF_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
-        {
-
         }
     }
 }
