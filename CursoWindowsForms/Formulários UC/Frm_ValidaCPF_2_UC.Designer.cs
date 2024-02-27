@@ -35,8 +35,7 @@
             // 
             // Btn_Valida
             // 
-            this.Btn_Valida.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Btn_Valida.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Btn_Valida.Location = new System.Drawing.Point(253, 99);
             this.Btn_Valida.Name = "Btn_Valida";
             this.Btn_Valida.Size = new System.Drawing.Size(111, 23);
@@ -47,8 +46,7 @@
             // 
             // Btn_Reset
             // 
-            this.Btn_Reset.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Btn_Reset.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Btn_Reset.Location = new System.Drawing.Point(253, 70);
             this.Btn_Reset.Name = "Btn_Reset";
             this.Btn_Reset.Size = new System.Drawing.Size(111, 23);

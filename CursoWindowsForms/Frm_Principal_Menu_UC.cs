@@ -103,7 +103,7 @@ namespace CursoWindowsForms
             TabPage ucValidaSenhaTabPage = new TabPage();
             ucValidaSenhaTabPage.Name = $"Valída Senha {ControleValidaSenha}";
             ucValidaSenhaTabPage.Text = $"Valída Senha {ControleValidaSenha}";
-            ucValidaSenhaTabPage.ImageIndex = 4;
+            ucValidaSenhaTabPage.ImageIndex = 5;
             ucValidaSenhaTabPage.Controls.Add(ucValidaSenha);
             Tbc_Aplicacoes.TabPages.Add(ucValidaSenhaTabPage);
         }
