@@ -12,9 +12,14 @@ namespace CursoWindowsForms
 {
     public partial class Frm_Questao : Form
     {
-        public Frm_Questao()
+        public Frm_Questao(string nomeImagem, string mensagem)
         {
+
             InitializeComponent();
+
+            Image MyImage = (Image)Properties.Resources.ResourceManager.GetObject(nomeImagem);
+            Pic_Image.Image = MyImage;
+            Lbl_Questao.Text = mensagem;
         }
 
         private void Btn_Ok_Click(object sender, EventArgs e)

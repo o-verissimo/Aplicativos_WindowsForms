@@ -206,14 +206,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <EmbeddedResource Include="Formulários UC\Frm_Mascara_UC.resx">
       <DependentUpon>Frm_Mascara_UC.cs</DependentUpon>
     </EmbeddedResource>
@@ -221,6 +216,11 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -238,6 +238,12 @@
     <Content Include="Imagens\Frm_ValidaCPF2.ico" />
     <Content Include="Imagens\Frm_ValidaSenha.ico" />
     <None Include="Imagens\Question.png" />
+    <Content Include="Imagens\Question.ico" />
+    <None Include="Imagens\5.png" />
+    <None Include="Imagens\4.png" />
+    <None Include="Imagens\3.png" />
+    <None Include="Imagens\2.png" />
+    <None Include="Imagens\1.png" />
     <Content Include="Resources\Frm_DemonstracaoKey.ico" />
     <Content Include="Resources\Frm_DemonstracaoKey.png" />
     <Content Include="Resources\Frm_HelloWorld.ico" />
