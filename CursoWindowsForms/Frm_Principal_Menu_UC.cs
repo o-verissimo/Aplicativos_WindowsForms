@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CursoWindowsFormsBiblioteca;
 
 namespace CursoWindowsForms
 {
@@ -22,6 +23,11 @@ namespace CursoWindowsForms
         public Frm_Principal_Menu_UC()
         {
             InitializeComponent();
+
+            novoToolStripMenuItem.Enabled = false;
+            apagarAbaToolStripMenuItem.Enabled = false;
+            abrirImagemToolStripMenuItem.Enabled = false;
+            desconectarToolStripMenuItem.Enabled = false;
         }
 
         private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
@@ -151,6 +157,52 @@ namespace CursoWindowsForms
         {
             Frm_Login frm_Login = new Frm_Login();  
             frm_Login.ShowDialog();
+
+            if(frm_Login.DialogResult == DialogResult.OK)
+            {
+
+                string senha = frm_Login.senha;
+                string login = frm_Login.login;
+
+                if(ValidaSenhaLogin.ValidarSenhaLogin(senha) == true)
+                {
+                    novoToolStripMenuItem.Enabled = true;
+                    apagarAbaToolStripMenuItem.Enabled = true;
+                    abrirImagemToolStripMenuItem.Enabled = true;
+                    desconectarToolStripMenuItem.Enabled = true;
+                    conectarToolStripMenuItem.Enabled = false;
+
+                    MessageBox.Show($"Bem vindo {login}!", "Mensagem", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                }
+                else
+                {
+                    MessageBox.Show($"Senha inválida", "Mensagem", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+
+            }
+        }
+
+        private void desconectarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_Questao frm_Questao = new Frm_Questao("_6", "Você deseja se desconectar ?");
+            frm_Questao.ShowDialog();
+
+            if(frm_Questao.DialogResult == DialogResult.Yes)
+            {
+                //Tbc_Aplicacoes.TabPages.Remove(Tbc_Aplicacoes.SelectedTab);
+
+                for(int i= Tbc_Aplicacoes.TabPages.Count -1; i >= 0; i--)
+                {
+                    Tbc_Aplicacoes.TabPages.Remove(Tbc_Aplicacoes.TabPages[i]);
+                }
+
+                novoToolStripMenuItem.Enabled = false;
+                apagarAbaToolStripMenuItem.Enabled = false;
+                abrirImagemToolStripMenuItem.Enabled = false;
+                desconectarToolStripMenuItem.Enabled = false;
+                conectarToolStripMenuItem.Enabled = true;
+            }
         }
     }
 }

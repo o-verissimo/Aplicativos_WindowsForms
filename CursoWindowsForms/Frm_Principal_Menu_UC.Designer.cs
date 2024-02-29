@@ -32,6 +32,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Principal_Menu_UC));
             this.Menu_Principal = new System.Windows.Forms.MenuStrip();
             this.arquivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.conectarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.novoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.demonstraçãoKeyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helloToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -43,10 +44,9 @@
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.açõesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.abrirImagemToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.windowsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Tbc_Aplicacoes = new System.Windows.Forms.TabControl();
             this.Iml_Imagens = new System.Windows.Forms.ImageList(this.components);
-            this.conectarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.desconectarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Menu_Principal.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -54,8 +54,7 @@
             // 
             this.Menu_Principal.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.arquivoToolStripMenuItem,
-            this.açõesToolStripMenuItem,
-            this.windowsToolStripMenuItem});
+            this.açõesToolStripMenuItem});
             this.Menu_Principal.Location = new System.Drawing.Point(0, 0);
             this.Menu_Principal.Name = "Menu_Principal";
             this.Menu_Principal.Size = new System.Drawing.Size(800, 24);
@@ -67,12 +66,20 @@
             // 
             this.arquivoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.conectarToolStripMenuItem,
+            this.desconectarToolStripMenuItem,
             this.novoToolStripMenuItem,
             this.apagarAbaToolStripMenuItem,
             this.sairToolStripMenuItem});
             this.arquivoToolStripMenuItem.Name = "arquivoToolStripMenuItem";
             this.arquivoToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
             this.arquivoToolStripMenuItem.Text = "Arquivo";
+            // 
+            // conectarToolStripMenuItem
+            // 
+            this.conectarToolStripMenuItem.Name = "conectarToolStripMenuItem";
+            this.conectarToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
+            this.conectarToolStripMenuItem.Text = "Conectar";
+            this.conectarToolStripMenuItem.Click += new System.EventHandler(this.conectarToolStripMenuItem_Click);
             // 
             // novoToolStripMenuItem
             // 
@@ -167,17 +174,10 @@
             // 
             // abrirImagemToolStripMenuItem
             // 
-            this.abrirImagemToolStripMenuItem.Image = global::CursoWindowsForms.Properties.Resources.icons8_folder_400;
             this.abrirImagemToolStripMenuItem.Name = "abrirImagemToolStripMenuItem";
-            this.abrirImagemToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
+            this.abrirImagemToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.abrirImagemToolStripMenuItem.Text = "Abrir Imagem";
             this.abrirImagemToolStripMenuItem.Click += new System.EventHandler(this.abrirImagemToolStripMenuItem_Click);
-            // 
-            // windowsToolStripMenuItem
-            // 
-            this.windowsToolStripMenuItem.Name = "windowsToolStripMenuItem";
-            this.windowsToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
-            this.windowsToolStripMenuItem.Text = "Windows";
             // 
             // Tbc_Aplicacoes
             // 
@@ -201,12 +201,12 @@
             this.Iml_Imagens.Images.SetKeyName(5, "Frm_ValidaSenha.png");
             this.Iml_Imagens.Images.SetKeyName(6, "icons8-folder-400.png");
             // 
-            // conectarToolStripMenuItem
+            // desconectarToolStripMenuItem
             // 
-            this.conectarToolStripMenuItem.Name = "conectarToolStripMenuItem";
-            this.conectarToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
-            this.conectarToolStripMenuItem.Text = "Conectar";
-            this.conectarToolStripMenuItem.Click += new System.EventHandler(this.conectarToolStripMenuItem_Click);
+            this.desconectarToolStripMenuItem.Name = "desconectarToolStripMenuItem";
+            this.desconectarToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
+            this.desconectarToolStripMenuItem.Text = "Desconectar";
+            this.desconectarToolStripMenuItem.Click += new System.EventHandler(this.desconectarToolStripMenuItem_Click);
             // 
             // Frm_Principal_Menu_UC
             // 
@@ -235,7 +235,6 @@
         private System.Windows.Forms.ToolStripMenuItem demonstraçãoKeyToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem helloToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem windowsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem máscaraToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem valídaCPFToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem valídaCPF2ToolStripMenuItem;
@@ -246,5 +245,6 @@
         private System.Windows.Forms.ToolStripMenuItem açõesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem abrirImagemToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem conectarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem desconectarToolStripMenuItem;
     }
 }

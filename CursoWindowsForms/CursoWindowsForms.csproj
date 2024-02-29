@@ -64,10 +64,10 @@
     <Compile Include="Formulários UC\Frm_HelloWorld_UC.Designer.cs">
       <DependentUpon>Frm_HelloWorld_UC.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_ArquivoImagem_UC.cs">
+    <Compile Include="Formulários UC\Frm_ArquivoImagem_UC.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Frm_ArquivoImagem_UC.Designer.cs">
+    <Compile Include="Formulários UC\Frm_ArquivoImagem_UC.Designer.cs">
       <DependentUpon>Frm_ArquivoImagem_UC.cs</DependentUpon>
     </Compile>
     <Compile Include="Frm_Login.cs">
@@ -183,7 +183,7 @@
     <EmbeddedResource Include="Formulários UC\Frm_HelloWorld_UC.resx">
       <DependentUpon>Frm_HelloWorld_UC.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_ArquivoImagem_UC.resx">
+    <EmbeddedResource Include="Formulários UC\Frm_ArquivoImagem_UC.resx">
       <DependentUpon>Frm_ArquivoImagem_UC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Login.resx">
@@ -254,6 +254,8 @@
     <None Include="Imagens\3.ico" />
     <None Include="Imagens\4.ico" />
     <None Include="Imagens\5.ico" />
+    <None Include="Imagens\6.png" />
+    <None Include="Imagens\6.ico" />
     <Content Include="Imagens\Frm_DemonstracaoKey.ico" />
     <Content Include="Imagens\Frm_HelloWorld.ico" />
     <Content Include="Imagens\Frm_Mascara.ico" />
@@ -264,6 +266,8 @@
     <None Include="Imagens\icons8-folder-400.png" />
     <None Include="Imagens\key.png" />
     <None Include="Imagens\key.ico" />
+    <None Include="Imagens\icons8-question-mark-64.ico" />
+    <None Include="Imagens\icons8-question-mark-64.png" />
     <Content Include="Imagens\Question.ico" />
     <None Include="Imagens\5.png" />
     <None Include="Imagens\4.png" />

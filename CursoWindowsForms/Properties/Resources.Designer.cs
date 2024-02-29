@@ -163,6 +163,26 @@ namespace CursoWindowsForms.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _6 {
+            get {
+                object obj = ResourceManager.GetObject("_6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Icon semelhante a (Ícone).
+        /// </summary>
+        internal static System.Drawing.Icon _61 {
+            get {
+                object obj = ResourceManager.GetObject("_61", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Frm_DemonstracaoKey {
             get {
                 object obj = ResourceManager.GetObject("Frm_DemonstracaoKey", resourceCulture);
@@ -296,6 +316,26 @@ namespace CursoWindowsForms.Properties {
         internal static System.Drawing.Bitmap icons8_folder_400 {
             get {
                 object obj = ResourceManager.GetObject("icons8-folder-400", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Icon semelhante a (Ícone).
+        /// </summary>
+        internal static System.Drawing.Icon icons8_question_mark_64 {
+            get {
+                object obj = ResourceManager.GetObject("icons8_question_mark_64", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_question_mark_642 {
+            get {
+                object obj = ResourceManager.GetObject("icons8_question_mark_642", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
