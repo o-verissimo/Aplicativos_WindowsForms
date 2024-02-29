@@ -42,5 +42,10 @@ namespace CursoWindowsForms
             DialogResult= DialogResult.Cancel;
             this.Close();
         }
+
+        private void Lbl_SenhaDica_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

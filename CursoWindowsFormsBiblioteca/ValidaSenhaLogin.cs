@@ -10,7 +10,7 @@ namespace CursoWindowsFormsBiblioteca
     {
         public static bool ValidarSenhaLogin(string senha)
         {
-            if(senha == "curso") 
+            if(senha == "coxinha123") 
             {
                 return true;
             }

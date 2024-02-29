@@ -108,9 +108,10 @@
             this.Lbl_SenhaDica.AutoSize = true;
             this.Lbl_SenhaDica.Location = new System.Drawing.Point(122, 108);
             this.Lbl_SenhaDica.Name = "Lbl_SenhaDica";
-            this.Lbl_SenhaDica.Size = new System.Drawing.Size(93, 13);
+            this.Lbl_SenhaDica.Size = new System.Drawing.Size(147, 13);
             this.Lbl_SenhaDica.TabIndex = 7;
-            this.Lbl_SenhaDica.Text = "a senha é \"curso\"";
+            this.Lbl_SenhaDica.Text = "a senha é ta no README.md";
+            this.Lbl_SenhaDica.Click += new System.EventHandler(this.Lbl_SenhaDica_Click);
             // 
             // Frm_Login
             // 
