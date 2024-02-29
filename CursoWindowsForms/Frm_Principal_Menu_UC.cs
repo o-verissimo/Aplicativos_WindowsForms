@@ -18,6 +18,7 @@ namespace CursoWindowsForms
         int ControleValidaCPF = 0;
         int ControleValidaCPF2 = 0;
         int ControleValidaSenha = 0;
+        int ControleArquivoImagem = 0;
         public Frm_Principal_Menu_UC()
         {
             InitializeComponent();
@@ -119,6 +120,37 @@ namespace CursoWindowsForms
                 Tbc_Aplicacoes.TabPages.Remove(Tbc_Aplicacoes.SelectedTab);
             }
             
+        }
+
+        private void abrirImagemToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog openFileDB = new OpenFileDialog();
+            openFileDB.InitialDirectory = "C:\\WindowsForms\\Curso\\CursoWindowsForms\\CursoWindowsForms\\Imagens";
+            openFileDB.Filter = "PNG|*.PNG";
+            openFileDB.Title = "Escolha a imagem";
+
+            if (openFileDB.ShowDialog() == DialogResult.OK)
+            {
+                string nomeArquivoImagem = openFileDB.FileName;
+                
+                ControleArquivoImagem++;
+                Frm_ArquivoImagem_UC ucArquivoImagem = new Frm_ArquivoImagem_UC(nomeArquivoImagem);
+                ucArquivoImagem.Dock = DockStyle.Fill;
+                TabPage ucArquivoImagemTabPage = new TabPage();
+                ucArquivoImagemTabPage.Name = $"Arquivo Imagem {ControleArquivoImagem}";
+                ucArquivoImagemTabPage.Text = $"Arquivo Imagem {ControleArquivoImagem}";
+                ucArquivoImagemTabPage.ImageIndex = 6;
+                ucArquivoImagemTabPage.Controls.Add(ucArquivoImagem);
+                Tbc_Aplicacoes.TabPages.Add(ucArquivoImagemTabPage);
+            }
+
+            
+        }
+
+        private void conectarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_Login frm_Login = new Frm_Login();  
+            frm_Login.ShowDialog();
         }
     }
 }
