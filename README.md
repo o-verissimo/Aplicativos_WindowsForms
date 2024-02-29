@@ -14,13 +14,13 @@
 <h2>📖 Sobre</h2>
 <p>Este projeto foi feito no Visual Studio na linguagem C#, e é uma aplicação com 6 funções diferentes e alguns detalhes que fui adicionando com o tempo:
 
-Começando pelo login, caso você não se conectar você não podera acessar nenhuma função do programa:</br> </br>
+Começando pelo login, caso você não se conectar, você não poderá acessar nenhuma função do programa.</br> </br>
 <img src="https://github.com/o-verissimo/Aplicativos_WindowsForms/assets/102670336/1ddd0f96-4d56-4d0a-bb21-23544e7f9229"></br></br>
-Para se conectar é só clicar na opção Arquivo do menu e em conectar:</br> </br>
+Para se conectar é só clicar na opção Arquivo do menu e em Conectar:</br> </br>
 <img src="https://github.com/o-verissimo/Aplicativos_WindowsForms/assets/102670336/0a0c0ed7-1367-4456-9a64-ff5df406213a"></br></br>
 Após isso coloque o login e a senha e clique em OK (O login pode ser seu nome ou como preferir ser chamado e a senha fica só entre nós em... coxinha123)</br></br>
 <img src="https://github.com/o-verissimo/Aplicativos_WindowsForms/assets/102670336/31faa69c-0739-46ff-ad0f-0730dbdfaffa"></br></br>
-<h3>Agora temos acessos as funções:</h3>
+<h3>Agora temos acesso as funções:</h3>
 
 
 1° - Demonstração Key:</br></br>
