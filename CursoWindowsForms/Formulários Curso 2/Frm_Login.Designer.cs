@@ -36,6 +36,7 @@
             this.Txt_Password = new System.Windows.Forms.TextBox();
             this.Btn_Ok = new System.Windows.Forms.Button();
             this.Btn_Cancel = new System.Windows.Forms.Button();
+            this.Lbl_SenhaDica = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Pic_Login)).BeginInit();
             this.SuspendLayout();
             // 
@@ -102,11 +103,21 @@
             this.Btn_Cancel.UseVisualStyleBackColor = true;
             this.Btn_Cancel.Click += new System.EventHandler(this.Btn_Cancel_Click);
             // 
+            // Lbl_SenhaDica
+            // 
+            this.Lbl_SenhaDica.AutoSize = true;
+            this.Lbl_SenhaDica.Location = new System.Drawing.Point(122, 108);
+            this.Lbl_SenhaDica.Name = "Lbl_SenhaDica";
+            this.Lbl_SenhaDica.Size = new System.Drawing.Size(93, 13);
+            this.Lbl_SenhaDica.TabIndex = 7;
+            this.Lbl_SenhaDica.Text = "a senha é \"curso\"";
+            // 
             // Frm_Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(281, 167);
+            this.Controls.Add(this.Lbl_SenhaDica);
             this.Controls.Add(this.Btn_Cancel);
             this.Controls.Add(this.Btn_Ok);
             this.Controls.Add(this.Txt_Password);
@@ -136,5 +147,6 @@
         private System.Windows.Forms.TextBox Txt_Password;
         private System.Windows.Forms.Button Btn_Ok;
         private System.Windows.Forms.Button Btn_Cancel;
+        private System.Windows.Forms.Label Lbl_SenhaDica;
     }
 }
