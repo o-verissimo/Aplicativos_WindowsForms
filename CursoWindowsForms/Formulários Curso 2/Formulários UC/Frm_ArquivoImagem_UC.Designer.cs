@@ -52,6 +52,7 @@
             this.Pic_ArquivoImagem.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Pic_ArquivoImagem.TabIndex = 1;
             this.Pic_ArquivoImagem.TabStop = false;
+            this.Pic_ArquivoImagem.Click += new System.EventHandler(this.Pic_ArquivoImagem_Click);
             // 
             // Btn_Cor
             // 

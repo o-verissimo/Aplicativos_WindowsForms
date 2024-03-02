@@ -36,5 +36,10 @@ namespace CursoWindowsForms
                 Lbl_ArquivoImagem.ForeColor = colorDB.Color;
             }
         }
+
+        private void Pic_ArquivoImagem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
