@@ -213,6 +213,9 @@
     <EmbeddedResource Include="Formulários Curso 2\Frm_Login.resx">
       <DependentUpon>Frm_Login.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Frm_MenuFlutuante.resx">
+      <DependentUpon>Frm_MenuFlutuante.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_MouseCaptura.resx">
       <DependentUpon>Frm_MouseCaptura.cs</DependentUpon>
     </EmbeddedResource>
@@ -289,6 +292,10 @@
     <None Include="Imagens\5.ico" />
     <None Include="Imagens\6.png" />
     <None Include="Imagens\6.ico" />
+    <None Include="Imagens\DeleteTab.png" />
+    <None Include="Imagens\DeleteAll.png" />
+    <None Include="Imagens\DeleteLeft.png" />
+    <None Include="Imagens\DeleteRight.png" />
     <Content Include="Imagens\Frm_DemonstracaoKey.ico" />
     <Content Include="Imagens\Frm_HelloWorld.ico" />
     <Content Include="Imagens\Frm_Mascara.ico" />

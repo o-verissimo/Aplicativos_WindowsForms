@@ -36,9 +36,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(638, 278);
             this.Name = "Frm_MenuFlutuante";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frm_MenuFlutuante";
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Frm_MenuFlutuante_MouseDown);
             this.ResumeLayout(false);
-
         }
 
         #endregion
