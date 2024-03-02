@@ -4,14 +4,23 @@
     <br />
     <br />
    <a href="">
-    <img src="https://github.com/o-verissimo/Aplicativos_WindowsForms/assets/102670336/8d0c160f-1385-4fd1-ba70-93748ddb1370">
+    <img src="https://github.com/o-verissimo/Aplicativos_WindowsForms/assets/102670336/f6b4267f-3151-4f13-be0b-7913d7017123">
    </a>    
   </h1>
 </div>
 
 
+
 <h2>📖 Sobre</h2>
-<p>Este projeto foi feito no Visual Studio na linguagem C#, e é uma aplicação com 6 funções diferentes:
+<p>Este projeto foi feito no Visual Studio na linguagem C#, e é uma aplicação com 6 funções diferentes e alguns detalhes que fui adicionando com o tempo:
+
+Começando pelo login, caso você não se conectar, você não poderá acessar nenhuma função do programa.</br> </br>
+<img src="https://github.com/o-verissimo/Aplicativos_WindowsForms/assets/102670336/1ddd0f96-4d56-4d0a-bb21-23544e7f9229"></br></br>
+Para se conectar é só clicar na opção Arquivo do menu e em Conectar:</br> </br>
+<img src="https://github.com/o-verissimo/Aplicativos_WindowsForms/assets/102670336/0a0c0ed7-1367-4456-9a64-ff5df406213a"></br></br>
+Após isso coloque o login e a senha e clique em OK (O login pode ser seu nome ou como preferir ser chamado e a senha fica só entre nós em... coxinha123)</br></br>
+<img src="https://github.com/o-verissimo/Aplicativos_WindowsForms/assets/102670336/31faa69c-0739-46ff-ad0f-0730dbdfaffa"></br></br>
+<h3>Agora temos acesso as funções:</h3>
 
 
 1° - Demonstração Key:</br></br>
@@ -75,7 +84,8 @@
   
    Conhecimentos que adquiri nesse curso:
    <ul>
-   <li>A criar formulários e manipulá-los;</li>
+   <li>A criar formulários básicos, do tipo MDI, do tipo UC e manipulá-los;</li>
+   <li>Utilizar e criar Dialogue Boxes e chamar as Dialog do sistema (ColorDialog, OpenFlieDialog entre outros);</li>
    <li>A utilizar suas Ferramentas e Propriedades;</li>
    <li>Manipular Eventos;</li>
    <li>Criar um formulário com vários componentes e adicionar a lógica e função de cada um deles com C#;</li>
